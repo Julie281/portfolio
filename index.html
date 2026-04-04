@@ -6,34 +6,61 @@
   <title>Julie Laurent | Language selection</title>
   <meta name="description" content="Choose your preferred language for Julie Laurent's multilingual portfolio." />
   <meta name="robots" content="noindex,follow" />
-  <link rel="alternate" hreflang="es" href="https://julie281.github.io/es/" />
-  <link rel="alternate" hreflang="en" href="https://julie281.github.io/en/" />
-  <link rel="alternate" hreflang="fr" href="https://julie281.github.io/fr/" />
-  <link rel="alternate" hreflang="x-default" href="https://julie281.github.io/es/" />
+  <link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/" />
+  <link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/" />
+  <link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/" />
+  <link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script>
     (function() {
+      function getBasePath() {
+        var path = window.location.pathname;
+        if (window.location.hostname.endsWith('github.io')) {
+          var segments = path.split('/').filter(Boolean);
+          return segments.length ? '/' + segments[0] + '/' : '/';
+        }
+        if (/\/(?:index|404)\.html$/.test(path)) {
+          return path.replace(/(?:index|404)\.html$/, '');
+        }
+        if (/\/$/.test(path)) return path;
+        return '/';
+      }
+
+      var basePath = getBasePath();
+      window.__portfolioBasePath = basePath;
+
       var lang = (navigator.language || navigator.userLanguage || 'es').toLowerCase();
-      var target = '/es/';
-      if (lang.startsWith('fr')) target = '/fr/';
-      else if (lang.startsWith('en')) target = '/en/';
-      window.location.replace(target);
+      var target = 'es/';
+      if (lang.startsWith('fr')) target = 'fr/';
+      else if (lang.startsWith('en')) target = 'en/';
+
+      var destination = new URL(target, window.location.origin + basePath).toString();
+      window.location.replace(destination);
     })();
   </script>
 </head>
 <body class="selector-body">
-  <main class="selector-card">
-    <div class="eyebrow">Julie Laurent</div>
+  <main class="selector-card selector-card-enhanced">
+    <div class="eyebrow">Julie Laurent · Portfolio</div>
     <h1>Choose your language</h1>
     <p>This portfolio is available in Spanish, English and French. If automatic redirection does not work, choose your preferred version below.</p>
-    <div class="selector-grid">
-      <a href="/es/">Español<span>Versión principal</span></a>
-      <a href="/en/">English<span>International version</span></a>
-      <a href="/fr/">Français<span>Version française</span></a>
+    <div class="selector-grid selector-grid-enhanced">
+      <a href="es/" data-lang="es"><strong>Español</strong><span>Versión principal</span><em>../es/</em></a>
+      <a href="en/" data-lang="en"><strong>English</strong><span>International version</span><em>../en/</em></a>
+      <a href="fr/" data-lang="fr"><strong>Français</strong><span>Version française</span><em>../fr/</em></a>
     </div>
   </main>
+  <script>
+    (function() {
+      var basePath = window.__portfolioBasePath || '/';
+      document.querySelectorAll('.selector-grid a[data-lang]').forEach(function(link) {
+        var lang = link.getAttribute('data-lang');
+        link.href = new URL(lang + '/', window.location.origin + basePath).pathname;
+      });
+    })();
+  </script>
 </body>
 </html>
