@@ -60,7 +60,7 @@
             </p>
 
             <div class="hero-actions">
-              <a href="#proyectos" class="btn btn-primary">Ver proyectos personales</a>
+              <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
               <a href="https://amzn.eu/d/0gkHJSSM" target="_blank" rel="noreferrer" class="btn btn-secondary">Ver mi libro</a>
             </div>
 
@@ -117,7 +117,7 @@
 
       <section class="section" id="sobre-mi">
         <div class="container">
-          <div class="section-head reveal">
+          <div class="section-head reveal" data-scroll-anchor>
             <span class="section-tag">Sobre mí</span>
             <h2>Tecnología, organización e innovación con una mirada clara y orientada a producto</h2>
             <p>
@@ -172,7 +172,7 @@
 
       <section class="section alt-section" id="educacion">
         <div class="container split-layout">
-          <div class="section-head narrow reveal">
+          <div class="section-head narrow reveal" data-scroll-anchor>
             <span class="section-tag">Educación</span>
             <h2>Una base humanista y digital reforzada con producto, diseño e IA</h2>
             <p>
@@ -232,7 +232,7 @@
 
       <section class="section" id="carrera">
         <div class="container">
-          <div class="section-head reveal">
+          <div class="section-head reveal" data-scroll-anchor>
             <span class="section-tag">Mi carrera</span>
             <h2>Del lenguaje al producto, y del producto a la conversación con negocio</h2>
             <p>
@@ -300,14 +300,24 @@
       <section class="section highlight-section" id="libro">
         <div class="container book-layout">
           <div class="book-cover reveal">
-            <div class="book-mockup">
-              <span class="book-label">Mi libro</span>
-              <h3>Conversaciones Inteligentes</h3>
-              <p>Guía práctica para diseñar, implementar y escalar asistentes conversacionales con criterio.</p>
-            </div>
+            <a
+              class="book-cover-link"
+              href="https://amzn.eu/d/0gkHJSSM"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Abrir la ficha del libro Conversaciones Inteligentes en Amazon"
+            >
+              <div class="book-cover-frame">
+                <img
+                  class="book-cover-image"
+                  src="assets/conversaciones-inteligentes-cover.jpg"
+                  alt="Portada del libro Conversaciones Inteligentes de Julie Laurent"
+                />
+              </div>
+            </a>
           </div>
 
-          <div class="book-copy reveal delay-1">
+          <div class="book-copy reveal delay-1" data-scroll-anchor>
             <span class="section-tag">Libro</span>
             <h2>Una guía práctica sobre el papel estratégico de los asistentes conversacionales</h2>
             <p>
@@ -336,7 +346,7 @@
 
       <section class="section" id="proyectos">
         <div class="container">
-          <div class="section-head reveal">
+          <div class="section-head reveal" data-scroll-anchor>
             <span class="section-tag">Proyectos</span>
             <h2>Exploración personal con foco en producto, experiencia y motivación</h2>
             <p>
@@ -378,7 +388,7 @@
       </section>
 
       <section class="section alt-section" id="contacto">
-        <div class="container contact-wrap reveal">
+        <div class="container contact-wrap reveal" data-scroll-anchor>
           <div class="contact-copy">
             <span class="section-tag">Contacto</span>
             <h2>Hablemos de asistentes conversacionales, producto e IA aplicada</h2>

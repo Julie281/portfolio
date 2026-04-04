@@ -1,0 +1,36 @@
+<svg width="900" height="1350" viewBox="0 0 900 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1350" rx="42" fill="#F4EBDD"/>
+  <rect x="36" y="36" width="828" height="1278" rx="32" fill="#FFFFFF" stroke="#D7E7E4" stroke-width="4"/>
+  <rect x="78" y="82" width="744" height="1186" rx="28" fill="url(#bg)"/>
+  <circle cx="705" cy="210" r="126" fill="#008080" fill-opacity="0.12"/>
+  <circle cx="170" cy="1125" r="170" fill="#008080" fill-opacity="0.08"/>
+  <rect x="126" y="130" width="230" height="46" rx="23" fill="#E6F4F3" stroke="#BFE0DD"/>
+  <text x="241" y="160" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="1.5" fill="#008080">JULIE LAURENT</text>
+  <text x="126" y="280" font-family="Poppins, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-2" fill="#333333">CONVERSACIONES</text>
+  <text x="126" y="372" font-family="Poppins, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-2" fill="#333333">INTELIGENTES</text>
+  <rect x="126" y="420" width="648" height="3" rx="1.5" fill="#008080" fill-opacity="0.28"/>
+  <text x="126" y="492" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="600" fill="#333333">Guía técnica para diseñar, implementar</text>
+  <text x="126" y="540" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="600" fill="#333333">y escalar asistentes conversacionales</text>
+  <text x="126" y="638" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#5B5B57">Una mirada práctica para convertir la conversación</text>
+  <text x="126" y="680" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#5B5B57">en experiencia, proceso y valor real.</text>
+  <g opacity="0.95">
+    <rect x="126" y="760" width="648" height="286" rx="34" fill="#FFFFFF" stroke="#D5ECE9" stroke-width="3"/>
+    <rect x="170" y="812" width="204" height="24" rx="12" fill="#008080" fill-opacity="0.16"/>
+    <rect x="170" y="860" width="562" height="18" rx="9" fill="#E9F3F2"/>
+    <rect x="170" y="894" width="510" height="18" rx="9" fill="#E9F3F2"/>
+    <rect x="170" y="928" width="546" height="18" rx="9" fill="#E9F3F2"/>
+    <rect x="170" y="962" width="420" height="18" rx="9" fill="#E9F3F2"/>
+    <circle cx="654" cy="270" r="34" fill="#FFFFFF" stroke="#BFE0DD" stroke-width="3"/>
+    <path d="M654 252V270L666 276" stroke="#008080" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="654" cy="270" r="14" fill="#008080" fill-opacity="0.12"/>
+  </g>
+  <rect x="126" y="1134" width="276" height="54" rx="27" fill="#008080"/>
+  <text x="264" y="1168" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Asistentes conversacionales</text>
+  <text x="126" y="1235" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#5B5B57">Producto · IA aplicada · Diseño conversacional</text>
+  <defs>
+    <linearGradient id="bg" x1="78" y1="82" x2="822" y2="1268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F7F1E6"/>
+    </linearGradient>
+  </defs>
+</svg>
