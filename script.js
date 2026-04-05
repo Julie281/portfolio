@@ -27,55 +27,29 @@ if (menuToggle && siteNav) {
   });
 }
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  },
-  { threshold: 0.14 }
-);
+if (revealItems.length) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.14 }
+  );
 
-revealItems.forEach((item) => observer.observe(item));
-
-const sections = document.querySelectorAll('main section[id]');
-
-const setActiveLink = () => {
-  const offset = window.scrollY + 150;
-
-  sections.forEach((section) => {
-    const top = section.offsetTop;
-    const height = section.offsetHeight;
-    const id = section.getAttribute('id');
-    const link = document.querySelector(`.site-nav a[href="#${id}"]`);
-
-    if (!link) return;
-
-    if (offset >= top && offset < top + height) {
-      navLinks.forEach((navLink) => navLink.classList.remove('active'));
-      link.classList.add('active');
-    }
-  });
-};
+  revealItems.forEach((item) => observer.observe(item));
+}
 
 const setHeaderState = () => {
   if (!siteHeader) return;
   siteHeader.classList.toggle('is-scrolled', window.scrollY > 8);
 };
 
-window.addEventListener('scroll', () => {
-  setActiveLink();
-  setHeaderState();
-});
-
-window.addEventListener('load', () => {
-  setActiveLink();
-  setHeaderState();
-});
-
+window.addEventListener('scroll', setHeaderState);
+window.addEventListener('load', setHeaderState);
 
 const internalLinks = document.querySelectorAll('a[href^="#"]');
 

@@ -1,24 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://julie281.github.io/portfolio/es/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/es/perfil/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/perfil/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/profile/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/profil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/perfil/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/es/proyectos/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/proyectos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/projects/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/projets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/proyectos/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/es/libro/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/libro/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/book/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/livre/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/libro/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/es/colaborar/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/colaborar/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/work-with-me/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/collaborer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/colaborar/" />
   </url>
   <url>
     <loc>https://julie281.github.io/portfolio/en/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/en/profile/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/perfil/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/profile/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/profil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/perfil/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/en/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/proyectos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/projects/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/projets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/proyectos/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/en/book/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/libro/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/book/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/livre/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/libro/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/en/work-with-me/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/colaborar/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/work-with-me/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/collaborer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/colaborar/" />
   </url>
   <url>
     <loc>https://julie281.github.io/portfolio/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/fr/profil/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/perfil/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/profile/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/profil/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/perfil/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/fr/projets/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/proyectos/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/projects/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/projets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/proyectos/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/fr/livre/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/libro/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/book/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/livre/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/libro/" />
+  </url>
+  <url>
+    <loc>https://julie281.github.io/portfolio/fr/collaborer/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://julie281.github.io/portfolio/es/colaborar/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://julie281.github.io/portfolio/en/work-with-me/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://julie281.github.io/portfolio/fr/collaborer/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://julie281.github.io/portfolio/es/colaborar/" />
   </url>
 </urlset>

@@ -36,18 +36,17 @@
       var target = 'es/';
       if (lang.startsWith('fr')) target = 'fr/';
       else if (lang.startsWith('en')) target = 'en/';
-
       var destination = new URL(target, window.location.origin + basePath).toString();
       window.location.replace(destination);
     })();
   </script>
 </head>
 <body class="selector-body">
-  <main class="selector-card selector-card-enhanced">
-    <div class="eyebrow">Julie Laurent · Portfolio</div>
+  <main class="selector-card">
+    <div class="selector-badges"><span>Conversational AI</span><span>Product</span><span>Multilingual</span></div>
     <h1>Choose your language</h1>
-    <p>This portfolio is available in Spanish, English and French. If automatic redirection does not work, choose your preferred version below.</p>
-    <div class="selector-grid selector-grid-enhanced">
+    <p>This portfolio is available in Spanish, English and French. If the automatic redirect does not work, choose your preferred version below.</p>
+    <div class="selector-grid">
       <a href="es/" data-lang="es"><strong>Español</strong><span>Versión principal</span><em>../es/</em></a>
       <a href="en/" data-lang="en"><strong>English</strong><span>International version</span><em>../en/</em></a>
       <a href="fr/" data-lang="fr"><strong>Français</strong><span>Version française</span><em>../fr/</em></a>
